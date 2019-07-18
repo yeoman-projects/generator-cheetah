@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Marc Adlington",
+      "authorEmail": "marc.adlington@zebra.com",
+      "authorUrl": "marcadlington.com"
+    }
+  }
+}
