@@ -27,7 +27,7 @@ To get this template working with your project you must first sync your **src di
 
 ## License
 
-MIT © [Marc Adlington](marcadlington.com)
+MIT © [Marc Adlington](marcadlington.co.uk)
 
 
 [npm-image]: https://badge.fury.io/js/generator-webpack-stlye-bundler.svg
