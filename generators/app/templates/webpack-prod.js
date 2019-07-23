@@ -1,6 +1,6 @@
 const path = require('path');
 const merge = require('webpack-merge');
-const common = require('./webpack.common');
+const common = require('./webpack-common');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const TerserPlugin = require('terser-webpack-plugin');
