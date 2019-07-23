@@ -24,6 +24,7 @@ To get this template working with your project you must first sync your **src di
 - uses webpack dev-tool 'inline-source-map' for development
 
 ###npm run release
+<<<<<<< HEAD
 - unoptimised build. Merges all styling into the release folder under one .css file 'zebra.css'. This is used for further development and comes with the npm release of this package.
 
 ## License
@@ -37,3 +38,6 @@ MIT © [Marc Adlington](marcadlington.com)
 [travis-url]: https://travis-ci.org//generator-webpack-stlye-bundler
 [daviddm-image]: https://david-dm.org//generator-webpack-stlye-bundler.svg?theme=shields.io
 [daviddm-url]: https://david-dm.org//generator-webpack-stlye-bundler
+=======
+- unoptimised build. Merges all styling into the release folder under one .css file 'zebra.css'. This is used for further development and comes with the npm release of this package.
+>>>>>>> 04bc11b6d2ea104737b0fa578c1c5e1cfea50b93
