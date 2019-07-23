@@ -1,7 +1,3 @@
-## Installation
-- npm install -g yo
-- yo webpack-style-bundler
-
 ##Webpack Style Bundler
 TLDR: Takes a folder of scss or sass files and transforms into a single optimised .css file.
 - npm run build
@@ -24,15 +20,3 @@ To get this template working with your project you must first sync your **src di
 
 ###npm run release
 - unoptimised build. Merges all styling into the release folder under one .css file 'zebra.css'. This is used for further development and comes with the npm release of this package.
-
-## License
-
-MIT © [Marc Adlington](marcadlington.co.uk)
-
-
-[npm-image]: https://badge.fury.io/js/generator-webpack-stlye-bundler.svg
-[npm-url]: https://npmjs.org/package/generator-webpack-stlye-bundler
-[travis-image]: https://travis-ci.org//generator-webpack-stlye-bundler.svg?branch=master
-[travis-url]: https://travis-ci.org//generator-webpack-stlye-bundler
-[daviddm-image]: https://david-dm.org//generator-webpack-stlye-bundler.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org//generator-webpack-stlye-bundler

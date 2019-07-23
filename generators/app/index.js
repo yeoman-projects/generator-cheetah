@@ -1,17 +1,13 @@
 'use strict';
 const Generator = require('yeoman-generator');
-const chalk = require('chalk');
 const yosay = require('yosay');
 
 module.exports = class extends Generator {
   prompting() {
     // Have Yeoman greet the user.
     this.log(
-      yosay(`Welcome to the Webpack-style-bundler ${chalk.red('generator-webpack-stlye-bundler')} generator!`)
-    );
-
-    this.log(
-      yosay(`if you have any questions, please contact marc.adlington@zebra.com.`)
+      yosay(`Welcome to the Webpack-style-bundler generator!
+      if you have any questions, please contact marc.adlington@zebra.com.`)
     );
 
     const prompts = [
@@ -38,7 +34,6 @@ module.exports = class extends Generator {
   }
 
   install() {
-    console.log(this.props);
     this.installDependencies();
   }
 };
