@@ -1,5 +1,5 @@
 {
-  "name": "generator-webpack-style-bundler",
+  "name": "webpack-bundler-generated",
   "version": "1.0.0",
   "description": "Generated package this is ready to go using webpack and reactjs - with optimisations",
   "main": "src/index.js",

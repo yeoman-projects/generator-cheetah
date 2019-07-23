@@ -1,5 +1,5 @@
 {
-  "name": "webpack-bundler",
+  "name": "generator-webpack-style-bundler",
   "version": "1.2.391",
   "description": "Generator for a ready to go webpack reactjs app with style bundling",
   "main": "generators/app/index.js",
