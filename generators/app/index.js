@@ -32,12 +32,13 @@ module.exports = class extends Generator {
 
   writing() {
     this.fs.copy(
-      this.templatePath('./'),
-      this.destinationPath('./')
+      this.templatePath('./**/*'),
+      this.destinationRoot()
     );
   }
 
   install() {
+    console.log(this.props);
     this.installDependencies();
   }
 };
