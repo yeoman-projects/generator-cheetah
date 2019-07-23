@@ -1,6 +1,6 @@
 {
   "name": "generator-webpack-style-bundler",
-  "version": "1.2.32",
+  "version": "1.2.38",
   "description": "Generator for a ready to go webpack reactjs app with style bundling",
   "main": "index.js",
   "scripts": {
@@ -16,9 +16,6 @@
     "css",
     "scss",
     "sass"
-  ],
-  "files": [
-    "generators"
   ],
   "repository": {
     "type": "git",
