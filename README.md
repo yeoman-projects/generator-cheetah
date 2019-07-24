@@ -1,16 +1,16 @@
-## Installation
+## 3-Step Installation Process
 - npm install -g yo
-- npm install webpack-style-bundler
-- yo webpack-style-bundler
+- npm install generator-cheetah
+- yo cheetah
 
-##Webpack Style Bundler
-TLDR: Takes a folder of scss or sass files and transforms into a single optimised .css file.
+##Cheetah.
+TLDR: Takes a folder of scss or sass files and transforms into a single optimised .css file; providing sourcemaps on all builds. Also compresses index.html and bundles all the .js files resepectively. 
 - npm run build
 - npm run start
 - npm run release
 
-###Get Started
-To get this template working with your project you must first sync your **src directory** with this project, such that all of your existing files are contained within **/src**. Please note that webpack is expecting *index.js* and *index.html* as your main files. Webpack will handle the rest. This project supports React version 16.8.*, but you will need to merge your package.json dependencies with ours to ensure you have the required node modules to run your project.  
+###Getting Started
+Please note that webpack is expecting *index.js* and *index.html* as your main files. The generator will handle the rest. This project supports React version 16.8.*, but you will need to merge your package.json dependencies with ours to ensure that you have the required node modules to run your project.
 
 ###npm run build (production build)
  - creates 'contenthashed' file for caching
@@ -24,7 +24,6 @@ To get this template working with your project you must first sync your **src di
 - uses webpack dev-tool 'inline-source-map' for development
 
 ###npm run release
-<<<<<<< HEAD
 - unoptimised build. Merges all styling into the release folder under one .css file 'zebra.css'. This is used for further development and comes with the npm release of this package.
 
 ## License
@@ -38,6 +37,3 @@ MIT © [Marc Adlington](marcadlington.com)
 [travis-url]: https://travis-ci.org//generator-webpack-stlye-bundler
 [daviddm-image]: https://david-dm.org//generator-webpack-stlye-bundler.svg?theme=shields.io
 [daviddm-url]: https://david-dm.org//generator-webpack-stlye-bundler
-=======
-- unoptimised build. Merges all styling into the release folder under one .css file 'zebra.css'. This is used for further development and comes with the npm release of this package.
->>>>>>> 04bc11b6d2ea104737b0fa578c1c5e1cfea50b93

@@ -1,7 +1,7 @@
 {
-  "name": "generator-webpack-style-bundle",
-  "version": "1.2.393",
-  "description": "Generator for a ready to go webpack reactjs app with style bundling",
+  "name": "generator-cheetah",
+  "version": "1.0.1",
+  "description": "A cleaner alternative to the popular create-react-app, providing a ready to go webpack reactjs app with webpack optimisation for css, sass, scss and javascript files.",
   "main": "generators/app/index.js",
   "scripts": {
     "start": "webpack-dev-server --config webpack.dev.js --open --hot",
@@ -48,6 +48,7 @@
     "html-webpack-plugin": "^3.2.0",
     "jquery": "^3.4.1",
     "mini-css-extract-plugin": "^0.7.0",
+    "node-sass": "^4.12.0",
     "optimize-css-assets-webpack-plugin": "^5.0.3",
     "popper.js": "^1.15.0",
     "sass-loader": "^7.1.0",

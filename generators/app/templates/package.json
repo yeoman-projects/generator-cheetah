@@ -1,7 +1,7 @@
 {
-  "name": "webpack-bundler-generated",
+  "name": "cheetah",
   "version": "1.0.0",
-  "description": "Generated package this is ready to go using webpack and reactjs - with optimisations",
+  "description": "A cleaner alternative to the popular create-react-app, providing a ready to go webpack reactjs app with webpack optimisation for css, sass, scss and javascript files.",
   "main": "src/index.js",
   "scripts": {
     "start": "webpack-dev-server --config webpack-dev.js --open --hot",
