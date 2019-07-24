@@ -21,6 +21,11 @@
     "type": "git",
     "url": "git@bitbucket.org:MarcAdlington1/webpack-style-bundler.git"
   },
+  "babel": {
+      "presets": ["@babel/preset-env",
+          "@babel/preset-react"],
+      "plugins": ["@babel/transform-async-to-generator"]
+  },
   "author": "Marc Adlington",
   "license": "MIT",
   "dependencies": {
