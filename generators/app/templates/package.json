@@ -24,7 +24,7 @@
   "babel": {
       "presets": ["@babel/preset-env",
           "@babel/preset-react"],
-      "plugins": ["@babel/transform-async-to-generator"]
+      "plugins": ["@babel/transform-async-to-generator", "@babel/plugin-proposal-class-properties"]
   },
   "author": "Marc Adlington",
   "license": "MIT",
@@ -41,6 +41,7 @@
     "@babel/preset-env": "^7.5.3",
     "@babel/preset-react": "^7.0.0",
     "@webpack-cli/webpack-scaffold": "^0.1.8",
+    "node-sass": "^4.12.0",
     "babel-loader": "^8.0.6",
     "babel-polyfill": "^6.26.0",
     "bootstrap": "^4.3.1",

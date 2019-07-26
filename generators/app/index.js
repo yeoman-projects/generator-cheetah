@@ -6,8 +6,8 @@ module.exports = class extends Generator {
   prompting() {
     // Have Yeoman greet the user.
     this.log(
-      yosay(`Welcome to the Webpack-style-bundler generator!
-      if you have any questions, please contact marc.adlington@zebra.com.`)
+      yosay(`Welcome to the Cheetah generator!
+      If you have any questions, please contact marc.adlington@zebra.com.`)
     );
 
     const prompts = [
