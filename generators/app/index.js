@@ -24,8 +24,7 @@ module.exports = class extends Generator {
     this.log("prompt", this.answers.folderName);
     this.fs.copyTpl(
       this.templatePath('./**/*'),
-      this.destinationRoot(),
-      {name : this.answers.folderName}
+      this.destinationRoot(this.answers.folderName)
     );
   }
 

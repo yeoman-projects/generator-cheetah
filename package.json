@@ -1,6 +1,6 @@
 {
   "name": "generator-cheetah",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "description": "A cleaner alternative to the popular create-react-app, providing a ready to go webpack reactjs app with webpack optimisation for css, sass, scss and javascript files.",
   "main": "generators/app/index.js",
   "scripts": {
