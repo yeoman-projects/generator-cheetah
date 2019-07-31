@@ -22,10 +22,10 @@ module.exports = class extends Generator {
 
   writing() {
     this.log("prompt", this.answers.folderName);
-    this.fs.copy(
+    this.fs.copyTpl(
       this.templatePath('./**/*'),
       this.destinationRoot(),
-      {title : this.answers.folderName}
+      {name : this.answers.folderName}
     );
   }
 
