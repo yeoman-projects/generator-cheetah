@@ -1,5 +1,5 @@
 {
-  "name": "cheetah",
+  "name": "project",
   "version": "1.0.0",
   "description": "A cleaner alternative to the popular create-react-app, providing a ready to go webpack reactjs app with webpack optimisation for css, sass, scss and javascript files.",
   "main": "src/index.js",
